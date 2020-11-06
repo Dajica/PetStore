@@ -64,7 +64,7 @@ public class Pet {
 		this.photourl = photourl;
 	}
 
-	public boolean isStatus() {
+	public boolean getStatus() {
 		return status;
 	}
 

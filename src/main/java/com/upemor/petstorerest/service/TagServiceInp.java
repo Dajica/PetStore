@@ -21,12 +21,13 @@ public class TagServiceInp implements TagService {
 	}
 	
 	public Tag findById(int id) {
-		Tag tagDTO =tagRepository.findById(id);
-		return tagDTO;
+		Tag tag =tagRepository.findById(id);
+		return tag;
 	}
 	
-	public void createTag(Tag tag) {
+	public boolean createTag(Tag tag) {
 		tagRepository.save(tag);
+		return true;
 	}
 	
 	public Tag updateTag(int id, Tag tag) {
