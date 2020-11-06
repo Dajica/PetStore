@@ -38,7 +38,7 @@ public class Pet {
 	        CascadeType.ALL
 	    })
 	
-	private List < Orderpet > orders;
+	private List < OrderPet > orders;
 
 	public int getId() {
 		return id;

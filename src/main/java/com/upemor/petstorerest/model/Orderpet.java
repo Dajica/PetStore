@@ -10,7 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class Orderpet {
+public class OrderPet {
 	
 	@Id
 	@GeneratedValue
@@ -36,7 +36,7 @@ public class Orderpet {
 
 
 
-	public Orderpet() {
+	public OrderPet() {
 		// TODO Auto-generated constructor stub
 	}
 
